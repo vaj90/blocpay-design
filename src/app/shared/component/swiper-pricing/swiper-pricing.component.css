@@ -1,0 +1,70 @@
+@import 'swiper/swiper.min.css';
+@import 'swiper/swiper-bundle.min.css';
+
+.sample-slider{
+    display: block;
+}
+.swiper {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 280px;
+    height: 280px;
+    border: 1px solid #9cc0e9;
+    border-radius: 40px;
+    box-shadow: 1px 1px 6px #3087e8;
+    background: rgb(255,255,255);
+    background: linear-gradient(135deg, rgba(255,255,255,1) 0%, rgba(75,151,235,0.7790243459302326) 54%, rgba(48,135,232,1) 100%);
+}
+.swiper-slide-shadow-left, .swiper-slide-shadow-right{
+    border-radius: 40px;
+}
+.swiper-slide img {
+    display: block;
+    width: 100%;
+}
+.swiper-scrollbar{
+    background-color: transparent;
+}
+
+.invoice-pricing{
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+    text-align: center;
+    font-family: ubuntu;
+}
+.invoice-pricing *{
+    font-family: ubuntu;
+}
+.invoice-pricing .inv-code, .invoice-pricing .inv-details *{
+    margin: 0;
+}
+.inv-price-details *,.inv-other-detail *{
+    margin: 0;
+}
+.inv-other-detail p{
+    font-size: 1.25rem;
+    color:#0462c7;
+    font-weight: 500;
+}
+.inv-price-details{
+    margin-bottom: 10px;
+}
+.inv-price-details .inv-price-amt h1{
+    font-size: 3.2rem;
+    line-height: 2.8rem;
+}
+.inv-price-details .inv-price-unit p {
+    font-size: 1.2rem;
+    line-height: 20px;
+}
+.inv-price-details .inv-price-unit b{
+    font-size: 1.2rem;
+    color:#0462c7;
+}

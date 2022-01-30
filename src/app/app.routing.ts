@@ -3,7 +3,7 @@ import { DefaultLayoutComponent } from './layouts/default-layout/default-layout.
 
 export const AppRoutes: Routes = [
   {
-    path: 'default',
+    path: 'pay-now',
     component: DefaultLayoutComponent,
     children: [
       {

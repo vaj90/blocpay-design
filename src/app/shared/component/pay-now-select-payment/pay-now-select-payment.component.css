@@ -1,0 +1,22 @@
+.select-payment-content *  { 
+    font-family: ubuntu;
+}
+.select-payment-content .eTranfer-title
+{
+    color:#3087E8
+}
+.etransfer-item{
+    border-radius: 30px;
+    border: 1px solid #dfdfdf;
+    box-shadow: 1px 5px 6px #b9b9b9;
+}
+.etransfer-item .card-body img{
+    width: 28px;
+}
+.etransfer-item .card-body .flex-grow-1 h6{
+    text-shadow: 1px 1px 1px #3087E8;
+}
+.etransfer-item .card-body .flex-grow-1 > * {
+    margin: 0;
+    color:#3087E8
+}

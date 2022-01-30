@@ -9,6 +9,7 @@ import { AppComponent } from './app.component';
 import { AppRoutes } from './app.routing';
 import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.component';
 import { DefaultLayoutComponent } from './layouts/default-layout/default-layout.component';
+import { SwiperPricingModule } from './shared/component/swiper-pricing/swiper-pricing.module';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,7 @@ import { DefaultLayoutComponent } from './layouts/default-layout/default-layout.
     BrowserModule,
     RouterModule.forRoot(AppRoutes),
     FontAwesomeModule,
-    SwiperModule
+    SwiperPricingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

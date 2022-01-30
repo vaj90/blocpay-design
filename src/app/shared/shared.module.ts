@@ -7,13 +7,15 @@ import { PayNowEtransferInstructionsSentComponent } from './component/pay-now-et
 import { PayNowEtransferSendRequestComponent } from './component/pay-now-etransfer-send-request/pay-now-etransfer-send-request.component';
 import { PayNowEtransferSendRequestSentComponent } from './component/pay-now-etransfer-send-request-sent/pay-now-etransfer-send-request-sent.component';
 import { PayNowSelectPaymentComponent } from './component/pay-now-select-payment/pay-now-select-payment.component';
+import { SwiperPricingModule } from './component/swiper-pricing/swiper-pricing.module';
 
 
 
 @NgModule({
   imports: [
     CommonModule,
-    FormsModule
+    FormsModule,
+    SwiperPricingModule
   ],
   declarations : [
     PayNowEtransferComponent,
@@ -24,7 +26,6 @@ import { PayNowSelectPaymentComponent } from './component/pay-now-select-payment
     PayNowSelectPaymentComponent
   ],
   exports: [
-    PayNowEtransferComponent
   ]
 })
 export class SharedModule { }

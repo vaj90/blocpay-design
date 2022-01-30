@@ -7,10 +7,10 @@ import { PayNowEtransferComponent } from 'src/app/shared/component/pay-now-etran
 import { PayNowSelectPaymentComponent } from 'src/app/shared/component/pay-now-select-payment/pay-now-select-payment.component';
 
 export const DefaultLayoutRoutes: Routes = [
-    { path : 'pay-now-etransfer' , component : PayNowEtransferComponent},
-    { path : 'pay-now-etransfer-instruction' , component : PayNowEtransferInstructionsComponent},
-    { path : 'pay-now-etransfer-instruction-sent' , component : PayNowEtransferInstructionsSentComponent},
-    { path : 'pay-now-etransfer-send-request' , component : PayNowEtransferSendRequestComponent},
-    { path : 'pay-now-etransfer-send-request-sent' , component : PayNowEtransferSendRequestSentComponent},
-    { path : 'pay-now-select-payment' , component : PayNowSelectPaymentComponent},
+    { path : 'etransfer' , component : PayNowEtransferComponent},
+    { path : 'etransfer-instructions' , component : PayNowEtransferInstructionsComponent},
+    { path : 'etransfer-instructions-sent' , component : PayNowEtransferInstructionsSentComponent},
+    { path : 'etransfer-send-request' , component : PayNowEtransferSendRequestComponent},
+    { path : 'etransfer-send-request-sent' , component : PayNowEtransferSendRequestSentComponent},
+    { path : 'select-payment' , component : PayNowSelectPaymentComponent},
 ];

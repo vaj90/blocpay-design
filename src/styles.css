@@ -1,1 +1,8 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: 'ubuntu';
+    src: url('/assets/fonts/ubuntu/Ubuntu-Regular.ttf') format('truetype');
+}
+html, body, .wrapper, .content{
+    height: 100%;
+    width: 100%;
+}

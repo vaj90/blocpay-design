@@ -1,0 +1,42 @@
+<div class="wrapper">
+    <div class="content">
+        <div class="logo-container mb-4">
+            <div class="d-flex justify-content-center" style="height: 100%;">
+                <div class="align-self-center p-2 logo-content">
+                    <img src="../../../assets/img/trac--301-1@1x.png" class="mx-3" alt="">
+                    <h1>Bloc Aegis</h1>
+                </div>
+            </div>
+        </div>
+        <div class="login-container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="email" placeholder="name@example.com" tabindex="1" (click)="blurPassword($event)">
+                            <label for="email">Email</label>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-floating floating-password">
+                            <input type="password" class="form-control" id="password" placeholder="Password" (change)="changePassword($event)" tabindex="2" (focus)="focusPassword($event)">
+                            <label for="password">Password</label>
+                            <button class="btn btn-light btn-sm btn-showhide" *ngIf="isShow" (click)="showPassword()">SHOW</button>
+                        </div>
+                    </div>
+                </div>
+                <p class="forgot-password mb-3"><a>Forgot your password?</a></p>
+                <div class="login-submission-area">
+                    <a class="login-submission-btn mb-2">
+                        <div class="d-flex">
+                            <span class="flex-grow-1 login-submission-lbl">Login</span>
+                            <img class="login-submission-img" src="../../../../assets/img/trac--10-16@1x.png">
+                        </div>
+                    </a>
+                    <p class="register mb-5">Don't have an account? <a class="registration-btn">Register</a></p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

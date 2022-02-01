@@ -10,12 +10,14 @@ import { AppRoutes } from './app.routing';
 import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.component';
 import { DefaultLayoutComponent } from './layouts/default-layout/default-layout.component';
 import { SwiperPricingModule } from './shared/component/swiper-pricing/swiper-pricing.module';
+import { LoginComponent } from './pages/login/login.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AdminLayoutComponent,
-    DefaultLayoutComponent
+    DefaultLayoutComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,

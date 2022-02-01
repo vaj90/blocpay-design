@@ -1,0 +1,95 @@
+.logo-container * {
+    font-family: ubuntu;
+}
+.logo-container{
+    height: 40%;
+    background: rgba(48,135,232,1);
+    position: relative;
+}
+.logo-content > *{ 
+    display: inline-block;
+    font-family: ubuntu;
+}
+.logo-content img{
+    width: 70px;
+}
+.logo-content h1{
+    font-weight:900;
+    color: #fff;
+    font-size: 2rem;
+}
+.login-container{
+    padding: 10px;
+}
+.login-container * {
+    font-family: ubuntu;
+}
+.login-container .form-floating{
+    position: relative;
+}
+.login-container .form-floating  label{
+    color: rgba(48,135,232,1);
+}
+.login-container .form-floating input{
+    border-radius: 0;
+    border: 1px solid rgba(48,135,232,1);
+    color: rgba(48,135,232,1);
+    padding: 0.75rem 1rem;
+}
+.login-container .form-floating > label{
+    padding: 0.75rem 1rem;
+    font-family: ubuntu;
+}
+.login-container .form-floating.floating-password .form-control{
+    padding-right: 65px;
+}
+.login-container .form-floating .btn-showhide{
+    position: absolute;
+    bottom: 15px;
+    right: 8px;
+    color: rgba(48,135,232,1);
+    font-size: 12px;
+    font-weight: 500;
+    background-color: transparent;
+    border: none;
+}
+.forgot-password{
+    text-align: right;
+    font-size: 12px;
+    color: rgba(48,135,232,1);
+    font-weight: 500;
+}
+.login-submission-area{
+    text-align: center;
+}
+.login-submission-area .login-submission-btn{
+    padding: 10px;
+    background: rgb(195,235,232);
+    background: linear-gradient(90deg, rgba(195,235,232,1) 0%, rgba(111,178,232,1) 55%, rgba(48,135,232,1) 100%);
+    box-shadow: 1px 1px 10px #dfdfdf;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    display: inline-block;
+    width: 300px;
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 10px 25px;
+    cursor: pointer;
+}
+.login-submission-area .login-submission-btn *{
+    vertical-align: middle;
+}
+.login-submission-area .login-submission-lbl{
+    font-weight: lighter;
+    font-size: 1.2rem;
+    color: #0462c7;
+}
+.login-submission-area .login-submission-img{
+    margin-top: 5px;
+    width: 20px;
+    height: 20px;
+}
+.login-submission-area .register{
+    font-size: 0.8rem;
+    color: #0462c7;
+}
